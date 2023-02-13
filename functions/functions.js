@@ -1,19 +1,23 @@
-//function expression
-//function anonimous
+//let phrase = "Eu quero viver um amor!"
+//let myarray = phrase.split("o")
+//console.log(myarray)
 
-//parâmetros (parameters)
-const sum = function(number1, number2) {
-    total = number1 + number2
-    return total
+let phrase = "Eu quero viver um amor!"
+
+console.log(phrase.includes("amor"))
+
+let myarray = ['a', 'b', 'c']
+console.log(myarray)
+
+let number = 2
+
+console.log(number + 2)
+
+const person = {
+    name: 'Geovane',
+    age: 29,
 }
 
-sum(2, 3) // arguments - argumentos
-sum(6, 7)
-sum(34675, 785.2)
+delete person.age
 
-let number1 = 34
-let number2 = 25
-
-console.log(`o número 1 é ${number1}`)
-console.log(`o número 2 é ${number2}`)
-console.log(`a soma é ${sum(number1, number2)}`)
+console.log(person)
